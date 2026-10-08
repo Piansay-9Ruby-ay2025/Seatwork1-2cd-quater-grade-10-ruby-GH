@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PYTHON / PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Title -->
+    <title>Working with Python Lists</title>
+
+</head>
+
+<body>
+    <!-- Title Div -->
+    <main class="container">
+
+        <header class="header">
+        <div class="leaf-icon">🌎</div>
+        <h1>The <span>Nickname</span> Atlas of South East Asia</h1>
+        <p>
+            Every nation in this region carries a name earned through geography, history, and a myth. Select a
+            country below to uncover the title it has been given.
+            </p>
+        </header>
+
+        <section id="div1">
+        <p class="label">Country Lookup</p>
+
+        <h2>Enter an East Asian country</h2>
+        <select id="country" class="country-dropdown">
+        <option value="0">Brunei</option>
+        <option value="1">Cambodia</option>
+        <option value="2">Indonesia</option>
+        <option value="3">Laos</option>
+        <option value="4">Malaysia</option>
+        <option value="5">Singapore</option>
+        <option value="6">Timor-Leste</option>
+        <option value="7">Vietnam</option>
+            </select>
+            <br>
+            <br>
+            <button py-click="show_name">
+                Reveal Nickname
+            </button>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <div id="result">
+
+            </div>
+
+        </section>
+        <br>
+        <footer class="footer">
+            Seatwork 1 -At last  South east Asia
+        </footer>
+
+    </main>
+
+    <py-script src="main.py"></py-script>
+
+</body>
+
+</html>
